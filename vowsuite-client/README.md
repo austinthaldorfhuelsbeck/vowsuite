@@ -8,7 +8,7 @@ Routing is handled using react-router and useHistory.
 
 ### Dashboard
 
-//TODO
+The dashboard is locked behind a login page using private a route.
 
 ### Signup
 
