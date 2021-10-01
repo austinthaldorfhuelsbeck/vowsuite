@@ -1,0 +1,17 @@
+* {
+  font-family: "Karla", sans-serif;
+}
+
+.dashboard {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.help {
+  display: flex;
+  height: 90vh;
+  align-items: center;
+  justify-content: center;
+  font-size: 3rem;
+}
