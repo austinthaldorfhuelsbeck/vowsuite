@@ -3,6 +3,8 @@ import { Alert } from "react-bootstrap"
 import { useAuth } from "../../contexts/AuthContext"
 import { useHistory, Route } from "react-router-dom"
 import Navbar from "../Navbar/Navbar"
+import Home from "./pages/Home"
+import Help from "./pages/Help"
 
 export default function Dashboard() {
   const [error, setError] = useState("")
@@ -24,12 +26,8 @@ export default function Dashboard() {
     <div className="dashboard">
       {error && <Alert variant="danger">{error}</Alert>}
       <Navbar currentUser={currentUser} handleLogout={handleLogout} />
-      <Route exact path="/">
-        <h1>Home</h1>
-      </Route>
-      <Route path="/help">
-        <h1>Help</h1>
-      </Route>
+      <Route exact path="/" component={Home} />
+      <Route path="/help" component={Help} />
     </div>
   )
 }
