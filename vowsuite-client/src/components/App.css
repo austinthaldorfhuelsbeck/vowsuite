@@ -1,11 +1,84 @@
-* {
+html {
+  background: #f6f7fb;
   font-family: "Karla", sans-serif;
 }
 
+/* DASHBOARD */
+
 .dashboard {
+  background: #f6f7fb;
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+}
+
+.dashboard-nav {
+  padding: 15px 0px 15px 0px;
+  font-size: 1.05rem;
+}
+
+.content {
+  display: flex;
+  width: 100vw;
+  /* min-width: 1280px; */
+  height: 100vh;
+  background-color: #f6f7fb;
+  padding: 0px;
+}
+
+.container-flex {
+  padding: 15px 20px 20px 20px;
+  height: calc(100vh - 60px);
+}
+
+.scroll-container {
+  display: block;
+  padding: 0px 10px 20px 0px;
+  width: 100%;
+  overflow-y: auto;
+}
+
+.projects {
+  padding-top: 0px;
+  flex: 1 1 100%;
+}
+
+.projects-header {
+  display: block;
+  height: 55px;
+  width: 100%;
+  min-width: 735px;
+  padding: 10px 0px 15px 0px;
+  background-color: #f6f7fb;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.projects-list {
+  list-style: none;
+  display: block;
+  padding: 0px 10px 20px 0px;
+}
+
+.tile {
+  position: relative;
+  display: inline-block;
+  margin: 0px 20px 20px 0px;
+}
+
+.gallery-tile {
+  position: relative;
+  display: inline-block;
+  height: 140px;
+  width: 310px;
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 20px;
+  text-decoration: none;
+  border: 1px solid transparent;
+  box-shadow: 0 0 0 1px rgb(17 35 56 / 1%), 0 1px 3px rgb(17 35 56 / 1%),
+    0 2px 8px rgb(17 35 56 / 3%);
+  transition: all 0.2s ease-in;
+  transform: scale(1);
 }
 
 .help {
@@ -14,4 +87,18 @@
   align-items: center;
   justify-content: center;
   font-size: 3rem;
+}
+
+.smallcaps {
+  text-transform: uppercase;
+  font-weight: 400;
+  letter-spacing: 0.08rem;
+}
+
+.plain-link,
+.plain-link:hover {
+  color: #6e6f72;
+  text-decoration: none;
+  text-transform: capitalize;
+  cursor: pointer;
 }

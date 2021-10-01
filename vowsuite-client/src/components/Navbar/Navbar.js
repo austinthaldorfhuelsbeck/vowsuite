@@ -37,7 +37,11 @@ export default function Navbar({ currentUser, handleLogout }) {
         </div>
         <ul className={click ? "nav-menu active" : "nav-menu"}>
           <li className="nav-item">
-            <Link to="/help" className="nav-links" onClick={closeMobileMenu}>
+            <Link
+              to="/help"
+              className="nav-links smallcaps"
+              onClick={closeMobileMenu}
+            >
               Help & Support
             </Link>
           </li>

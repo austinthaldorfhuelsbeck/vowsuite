@@ -24,8 +24,8 @@ export default function Dashboard() {
 
   return (
     <div className="dashboard">
-      {error && <Alert variant="danger">{error}</Alert>}
       <Navbar currentUser={currentUser} handleLogout={handleLogout} />
+      {error && <Alert variant="danger">{error}</Alert>}
       <Route exact path="/" component={Home} />
       <Route path="/help" component={Help} />
     </div>
