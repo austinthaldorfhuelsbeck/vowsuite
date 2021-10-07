@@ -29,7 +29,7 @@ export default function Navbar({ currentUser, handleLogout }) {
   return (
     <>
       <nav className="navbar">
-        <Link to="/" className="navbar-logo">
+        <Link to="/" className="navbar-logo plain-link">
           VowSuite
         </Link>
         <div className="menu-icon" onClick={handleClick}>

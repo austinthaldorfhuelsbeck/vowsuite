@@ -2,14 +2,10 @@ import React from "react"
 import { Button } from "react-bootstrap"
 import { Link } from "react-router-dom"
 
-import { users } from "../../../data/users"
-
-import "../Dashboard.css"
 import Project from "../Project"
 
-export default function Home({ currentUser }) {
-  const userList = users.filter((u) => u.email === currentUser.email)
-  const user = userList[0]
+export default function Home({ user }) {
+  // Find collections to map
   const collections = user.collections
 
   return (

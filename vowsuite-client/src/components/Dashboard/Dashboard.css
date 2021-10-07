@@ -74,6 +74,7 @@
   margin-bottom: 10px;
   border-bottom: 1px solid #e0e0e0;
   text-align: center;
+  cursor: pointer;
 }
 
 .sidenav-tab {
@@ -86,4 +87,26 @@
   color: #54555d;
   background-color: #d6d9e5;
   text-decoration: none;
+  cursor: pointer;
+}
+
+.active {
+  background: #498179;
+  color: #fff;
+}
+
+/* FLEX */
+
+.content {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  background-color: #f6f7fb;
+  padding: 0px 0px 0px 0px;
+}
+
+.wrapper {
+  width: 100vw;
+  height: 100vh;
+  background-color: #f6f7fb;
 }

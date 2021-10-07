@@ -38,49 +38,6 @@ html {
   overflow-y: auto;
 }
 
-.projects {
-  padding-top: 0px;
-  flex: 1 1 100%;
-}
-
-.projects-header {
-  display: block;
-  height: 55px;
-  width: 100%;
-  min-width: 735px;
-  padding: 10px 0px 15px 0px;
-  background-color: #f6f7fb;
-  border-bottom: 1px solid #e0e0e0;
-}
-
-.projects-list {
-  list-style: none;
-  display: block;
-  padding: 0px 10px 20px 0px;
-}
-
-.tile {
-  position: relative;
-  display: inline-block;
-  margin: 0px 20px 20px 0px;
-}
-
-.gallery-tile {
-  position: relative;
-  display: inline-block;
-  height: 140px;
-  width: 310px;
-  background-color: #fff;
-  border-radius: 5px;
-  padding: 10px;
-  text-decoration: none;
-  border: 1px solid transparent;
-  box-shadow: 0 0 0 1px rgb(17 35 56 / 1%), 0 1px 3px rgb(17 35 56 / 1%),
-    0 2px 8px rgb(17 35 56 / 3%);
-  transition: all 0.2s ease-in;
-  transform: scale(1);
-}
-
 .help {
   display: flex;
   height: 90vh;
