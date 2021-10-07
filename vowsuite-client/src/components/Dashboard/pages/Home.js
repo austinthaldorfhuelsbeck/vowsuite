@@ -2,44 +2,13 @@ import React from "react"
 import { Button } from "react-bootstrap"
 import { Link } from "react-router-dom"
 
-export default function Home() {
-  const collections = [
-    {
-      id: 1,
-      name: "Megan + Anand",
-    },
-    {
-      id: 2,
-      name: "Elena + Josh",
-    },
-    {
-      id: 3,
-      name: "Gio + An",
-    },
-    {
-      id: 4,
-      name: "Amanda + Kyle",
-    },
-    {
-      id: 5,
-      name: "Barbara + Jonathan",
-    },
-    {
-      id: 6,
-      name: "Candice + Eric",
-    },
-  ]
+import "../Dashboard.css"
+import Project from "../Project"
+import { users } from "../../../data/users"
 
-  const Project = ({ collection }) => (
-    <li className="tile">
-      <Link to="/" className="gallery-tile">
-        <div className="row">
-          <div className="col col-5">img</div>
-          <div className="col col-7 plain-link">{collection.name}</div>
-        </div>
-      </Link>
-    </li>
-  )
+export default function Home() {
+  const user = users[0]
+  const collections = user.collections
 
   return (
     <div className="content">

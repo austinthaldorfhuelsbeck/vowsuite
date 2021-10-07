@@ -1,0 +1,12 @@
+.cover-img {
+  width: 115px;
+  height: 115px;
+  object-fit: cover;
+  border-radius: 0.5rem;
+}
+
+.collection-title {
+  font-family: Montserrat;
+  font-weight: 500;
+  margin-top: 5px;
+}
