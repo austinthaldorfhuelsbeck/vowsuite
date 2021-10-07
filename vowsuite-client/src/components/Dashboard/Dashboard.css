@@ -10,3 +10,80 @@
   font-weight: 500;
   margin-top: 5px;
 }
+
+.projects {
+  padding-top: 0px;
+  flex: 1 1 100%;
+}
+
+.projects-header {
+  display: block;
+  height: 55px;
+  width: 100%;
+  min-width: 735px;
+  padding: 10px 0px 15px 0px;
+  background-color: #f6f7fb;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.projects-list {
+  list-style: none;
+  display: block;
+  padding: 0px 10px 20px 0px;
+}
+
+.gallery-tile {
+  position: relative;
+  display: inline-block;
+  height: 140px;
+  width: 310px;
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 10px;
+  text-decoration: none;
+  border: 1px solid transparent;
+  box-shadow: 0 0 0 1px rgb(17 35 56 / 1%), 0 1px 3px rgb(17 35 56 / 1%),
+    0 2px 8px rgb(17 35 56 / 3%);
+  transition: all 0.2s ease-in;
+  transform: scale(1);
+}
+
+.tile {
+  position: relative;
+  display: inline-block;
+  margin: 0px 20px 20px 0px;
+  transition: all 0.2s ease-in-out;
+}
+
+.tile:hover {
+  transform: scale(1.04);
+}
+
+.sidenav {
+  padding: 15px 10px 15px 0px;
+  border-right: 1px solid #f0f0f0;
+  height: 100%;
+  width: 150px;
+}
+
+.sidenav-header {
+  font-family: "Montserrat", sans-serif;
+  font-size: 80%;
+  font-weight: 500;
+  padding: 10px 5px 15px 5px;
+  margin-bottom: 10px;
+  border-bottom: 1px solid #e0e0e0;
+  text-align: center;
+}
+
+.sidenav-tab {
+  display: block;
+  margin-bottom: 10px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  font-size: 0.93em;
+  padding: 16px 1px 1px 23px;
+  color: #54555d;
+  background-color: #d6d9e5;
+  text-decoration: none;
+}
