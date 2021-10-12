@@ -10,10 +10,6 @@ export const users = [
         name: "Myrrhanda + Matthew",
         img: "https://wedflow.imgix.net/studio/x19r7cr5/deliverable/f9p00pxl/media/spoaxwvi/MyrrhandaMatt-still30.jpg?w=960&h=540",
         url: "myrrhandamatthew",
-        primary_font: "Questa Grande",
-        secondary_font: "Montserrat",
-        primary_color: "af7549",
-        secondary_color: "f0eae1",
         edits: [
           {
             edit_id: "pu6ir4au",
@@ -22,6 +18,12 @@ export const users = [
             video:
               "https://media.wedflow.co/studio/x19r7cr5/deliverable/f9p00pxl/media/5hqcyxag/MyrrhandaMatthewSneakPeek_4k.mp4",
           },
+          {
+            edit_id: "v2489che",
+            name: "Highlight Film",
+            img: "",
+            video: "",
+          },
         ],
       },
       {
@@ -29,10 +31,6 @@ export const users = [
         name: "Megan + Anand",
         img: "https://wedflow.imgix.net/studio/x19r7cr5/deliverable/dhrojqb0/media/tp8evcsm/frame1024.jpg?w=960&h=540",
         url: "megananand",
-        primary_font: "Questa Grande",
-        secondary_font: "Montserrat",
-        primary_color: "af7549",
-        secondary_color: "f0eae1",
         edits: [
           {
             edit_id: "bec437xr",
@@ -48,10 +46,6 @@ export const users = [
         name: "Elena + Josh",
         img: "https://wedflow.imgix.net/studio/x19r7cr5/deliverable/128fvv0c/media/5dyitejf/greatwheel.jpg?w=960&h=540",
         url: "elenajosh",
-        primary_font: "Questa Grande",
-        secondary_font: "Montserrat",
-        primary_color: "af7549",
-        secondary_color: "f0eae1",
         edits: [
           {
             edit_id: "c7ho3pf8",
@@ -67,10 +61,6 @@ export const users = [
         name: "Miranda + Jeremiah",
         img: "https://wedflow.imgix.net/studio/x19r7cr5/deliverable/y3r6kv0b/media/qyjs0uw0/mirandaJeremiah-HighlightEdit-v20.jpg?w=960&h=540",
         url: "mirandajeremiah",
-        primary_font: "Questa Grande",
-        secondary_font: "Montserrat",
-        primary_color: "af7549",
-        secondary_color: "f0eae1",
         edits: [
           {
             edit_id: "kkng5tm9",
@@ -103,10 +93,6 @@ export const users = [
         name: "Laura + Christopher",
         img: "https://wedflow.imgix.net/studio/x19r7cr5/deliverable/uwtiz1ah/media/63ppivp5/ScreenShot2021-08-18at93003PM.png?w=960&h=540",
         url: "laurachristopher",
-        primary_font: "Questa Grande",
-        secondary_font: "Montserrat",
-        primary_color: "af7549",
-        secondary_color: "f0eae1",
         edits: [
           {
             edit_id: "x28zag7t",
@@ -121,10 +107,6 @@ export const users = [
         name: "Barbara + Jonathan",
         img: "https://wedflow.imgix.net/studio/x19r7cr5/deliverable/icudp76i/media/0q353qst/ScreenShot2021-08-17at12408AM.png?w=960&h=540",
         url: "barbarajonathan",
-        primary_font: "Questa Grande",
-        secondary_font: "Montserrat",
-        primary_color: "af7549",
-        secondary_color: "f0eae1",
         edits: [
           {
             edit_id: "hdd5v6b1",
@@ -139,10 +121,6 @@ export const users = [
         name: "Amanda + Kyle",
         img: "https://wedflow.imgix.net/studio/x19r7cr5/deliverable/o3tdtl0b/media/yn2egaqc/ScreenShot2021-07-25at10607AM.png?w=960&h=540",
         url: "amandakyle",
-        primary_font: "Questa Grande",
-        secondary_font: "Montserrat",
-        primary_color: "af7549",
-        secondary_color: "f0eae1",
         edits: [
           {
             edit_id: "08gu2ekh",
@@ -157,10 +135,6 @@ export const users = [
         name: "An + Giovanni",
         img: "https://wedflow.imgix.net/studio/x19r7cr5/deliverable/z0kmujty/media/b13i4ft2/GioAn-Portrait0.jpg?w=960&h=540",
         url: "angiovanni",
-        primary_font: "Questa Grande",
-        secondary_font: "Montserrat",
-        primary_color: "af7549",
-        secondary_color: "f0eae1",
         edits: [
           {
             edit_id: "3xsc45cf",
@@ -175,10 +149,6 @@ export const users = [
         name: "McKenzie + Grant",
         img: "https://wedflow.imgix.net/studio/x19r7cr5/deliverable/k0var55m/media/4699t2lh/mckenzie-grant-200.jpg?w=960&h=540",
         url: "mckenziegrant",
-        primary_font: "Questa Grande",
-        secondary_font: "Montserrat",
-        primary_color: "af7549",
-        secondary_color: "f0eae1",
         edits: [
           {
             edit_id: "j7p7phkn",
@@ -193,10 +163,6 @@ export const users = [
         name: "Shinai + Shinho",
         img: "https://wedflow.imgix.net/studio/x19r7cr5/deliverable/a3t0f4vc/media/uezh6gcn/Shinai-screen20.jpg?w=960&h=540",
         url: "shinaishinho",
-        primary_font: "Questa Grande",
-        secondary_font: "Montserrat",
-        primary_color: "af7549",
-        secondary_color: "f0eae1",
         edits: [
           {
             edit_id: "udus139w",
@@ -211,10 +177,6 @@ export const users = [
         name: "Teresa + Cong",
         img: "https://wedflow.imgix.net/studio/x19r7cr5/deliverable/9o3z0onp/media/1rr3mg16/teresa-cong0.jpg?w=960&h=540",
         url: "teresacong",
-        primary_font: "Questa Grande",
-        secondary_font: "Montserrat",
-        primary_color: "af7549",
-        secondary_color: "f0eae1",
         edits: [
           {
             edit_id: "6apfjui4",
@@ -229,10 +191,6 @@ export const users = [
         name: "Kailey + Kyle",
         img: "https://wedflow.imgix.net/studio/x19r7cr5/deliverable/umo8w28f/media/1u6s1klf/KaileyKyle-Still1.jpg?w=960&h=540",
         url: "kaileykyle",
-        primary_font: "Questa Grande",
-        secondary_font: "Montserrat",
-        primary_color: "af7549",
-        secondary_color: "f0eae1",
         edits: [
           {
             edit_id: "1meiift0",
@@ -247,10 +205,6 @@ export const users = [
         name: "Emi + Kelsey",
         img: "https://wedflow.imgix.net/studio/x19r7cr5/deliverable/n1nhr5u2/media/qjsor8h5/FOMO-screen0.jpg?w=960&h=540",
         url: "emikelsey",
-        primary_font: "Questa Grande",
-        secondary_font: "Montserrat",
-        primary_color: "af7549",
-        secondary_color: "f0eae1",
         edits: [
           {
             edit_id: "3rakwta0",
@@ -265,10 +219,6 @@ export const users = [
         name: "Rachael + Michael",
         img: "https://wedflow.imgix.net/studio/x19r7cr5/deliverable/01g8bf4s/media/9gp18742/rachaelmichael-widescreen-still.jpg?w=960&h=540",
         url: "rachaelmichael",
-        primary_font: "Questa Grande",
-        secondary_font: "Montserrat",
-        primary_color: "af7549",
-        secondary_color: "f0eae1",
         edits: [
           {
             edit_id: "25hub1mc",
@@ -283,10 +233,6 @@ export const users = [
         name: "Bianca + Dylan",
         img: "https://wedflow.imgix.net/studio/x19r7cr5/deliverable/nikh12a1/media/1hfpmsul/bianca-still.png?w=960&h=540",
         url: "biancadylan",
-        primary_font: "Questa Grande",
-        secondary_font: "Montserrat",
-        primary_color: "af7549",
-        secondary_color: "f0eae1",
         edits: [
           {
             edit_id: "myjrpvva",
@@ -301,10 +247,6 @@ export const users = [
         name: "Miriam + Nathan",
         img: "https://wedflow.imgix.net/studio/x19r7cr5/deliverable/u3hxaizr/media/0npzy3ef/miriam-still.png?w=960&h=540",
         url: "miriamnathan",
-        primary_font: "Questa Grande",
-        secondary_font: "Montserrat",
-        primary_color: "af7549",
-        secondary_color: "f0eae1",
         edits: [
           {
             edit_id: "yrs9t1us",

@@ -106,7 +106,8 @@
 }
 
 .wrapper {
-  width: 100vw;
+  padding: 20px;
+  width: 80%;
   height: 100vh;
   background-color: #f6f7fb;
 }

@@ -8,7 +8,7 @@ import "./Dashboard.css"
 
 import Navbar from "./Navbar/Navbar"
 import Home from "./pages/Home"
-import Collection from "./pages/Collection"
+import Collection from "./pages/Collection/Collection"
 import Help from "./pages/Help"
 
 export default function Dashboard() {
