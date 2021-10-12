@@ -1,7 +1,10 @@
 import React, { useState } from "react"
 import { useParams } from "react-router-dom"
 import Sidenav from "../../Sidenav/Sidenav"
-import Edit from "./Edit"
+import EditTab from "./EditTab/EditTab"
+import CustomizeTab from "./CustomizeTab/CustomizeTab"
+import SettingsTab from "./SettingsTab/SettingsTab"
+import ShareTab from "./ShareTab/ShareTab"
 import "./Collection.css"
 
 export default function Collection({ user }) {
@@ -14,28 +17,16 @@ export default function Collection({ user }) {
   )
   const collection = collectionList[0]
 
-  function Customize({ collection }) {
-    return <p>Customize</p>
-  }
-
-  function Settings({ collection }) {
-    return <p>Settings</p>
-  }
-
-  function Share({ collection }) {
-    return <p>Share</p>
-  }
-
   return (
     <div className="content">
       <Sidenav currentTab={currentTab} setCurrentTab={setCurrentTab} />
       <div className="wrapper">
         {currentTab === "Edit" && (
-          <Edit collection={collection} setCurrentTab={setCurrentTab} />
+          <EditTab collection={collection} setCurrentTab={setCurrentTab} />
         )}
-        {currentTab === "Customize" && <Customize collection={collection} />}
-        {currentTab === "Settings" && <Settings collection={collection} />}
-        {currentTab === "Share" && <Share collection={collection} />}
+        {currentTab === "Customize" && <CustomizeTab collection={collection} />}
+        {currentTab === "Settings" && <SettingsTab collection={collection} />}
+        {currentTab === "Share" && <ShareTab collection={collection} />}
       </div>
     </div>
   )

@@ -1,7 +1,7 @@
 import React from "react"
 import { Card } from "react-bootstrap"
 
-export default function Edit({ collection, setCurrentTab }) {
+export default function EditTab({ collection, setCurrentTab }) {
   function TitleCard({ collection, setCurrentTab }) {
     return (
       <Card className="col col-md-5 mx-1">
