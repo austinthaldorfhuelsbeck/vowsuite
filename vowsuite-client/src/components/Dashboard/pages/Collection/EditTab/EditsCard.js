@@ -1,5 +1,5 @@
 import React from "react"
-import { Card } from "react-bootstrap"
+import { Card, Button } from "react-bootstrap"
 import EditCard from "./EditCard"
 
 export default function EditsCard({ edits, currentEdit, setCurrentEdit }) {
@@ -7,7 +7,11 @@ export default function EditsCard({ edits, currentEdit, setCurrentEdit }) {
     <Card className="col mx-1">
       <Card.Body>
         <Card.Title>Edits</Card.Title>
-        <ul className="sets-list">
+        <Button variant="outline-secondary">
+          <i className="fas fa-plus" />
+          &nbsp;Add New Edit
+        </Button>
+        <ul className="sets-list my-3">
           {edits.map((e) => (
             <EditCard
               key={e.edit_id}

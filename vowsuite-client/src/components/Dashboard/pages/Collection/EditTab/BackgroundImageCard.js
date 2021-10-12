@@ -9,6 +9,7 @@ export default function BackgroundImageCard({ collection }) {
           src={collection.img}
           alt={collection.name}
           style={{ height: "80px" }}
+          className="cover-img"
         />
         <p className="plain-link">Edit Background Image</p>
       </Card.Body>

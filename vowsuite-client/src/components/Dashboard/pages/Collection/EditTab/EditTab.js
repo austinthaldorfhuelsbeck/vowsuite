@@ -2,6 +2,7 @@ import React, { useState } from "react"
 import TitleCard from "./TitleCard"
 import BackgroundImageCard from "./BackgroundImageCard"
 import EditsCard from "./EditsCard"
+import VideoCard from "./VideoCard"
 
 export default function EditTab({ collection, setCurrentTab }) {
   const [currentEdit, setCurrentEdit] = useState(collection.edits[0])
@@ -18,6 +19,9 @@ export default function EditTab({ collection, setCurrentTab }) {
           currentEdit={currentEdit}
           setCurrentEdit={setCurrentEdit}
         />
+      </div>
+      <div className="row my-2">
+        <VideoCard currentEdit={currentEdit} />
       </div>
     </>
   )

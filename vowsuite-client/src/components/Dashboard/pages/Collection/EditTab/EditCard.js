@@ -1,3 +1,5 @@
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
+import { faCloudUploadAlt } from "@fortawesome/free-solid-svg-icons"
 import React from "react"
 
 export default function EditCard({ edit, currentEdit, setCurrentEdit }) {
@@ -16,8 +18,16 @@ export default function EditCard({ edit, currentEdit, setCurrentEdit }) {
       >
         <div className="row main-title">
           <div className="cover">
-            <div className="cover-photo" style={coverPhotoStyle}></div>
+            {edit.img ? (
+              <div className="cover-photo" style={coverPhotoStyle}></div>
+            ) : (
+              <div className="theme-link pt-2">
+                <FontAwesomeIcon icon={faCloudUploadAlt} />
+                Upload
+              </div>
+            )}
           </div>
+
           <div className="title">{edit.name}</div>
         </div>
       </div>
