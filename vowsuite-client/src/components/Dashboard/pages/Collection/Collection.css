@@ -70,7 +70,7 @@
   box-shadow: 0px 0px 12px -1px rgb(0 0 0 / 5%);
 }
 
-.set-item .active {
+.set-item-active {
   background-color: #efeff5;
   border-color: #d0d0d0;
   border-left: 5px solid #cfa75c;
